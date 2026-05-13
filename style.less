@@ -1,0 +1,21 @@
+@primary-pokemon: #ff0000; 
+@white: #ffffff;
+
+.mixin-boton-poke(@color, @pad, @radio) {
+    background-color: @color;
+    padding: @pad;
+    border-radius: @radio;
+    color: @white;
+    border: 2px solid darken(@color, 20%);
+    cursor: pointer;
+    font-weight: bold;
+    
+    &:hover {
+        background-color: darken(@color, 15%);
+        transform: scale(1.05);
+    }
+}
+
+.btn-more {
+    .mixin-boton-poke(@primary-pokemon, 12px 24px, 20px);
+}

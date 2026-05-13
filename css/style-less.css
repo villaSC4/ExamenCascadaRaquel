@@ -1,0 +1,13 @@
+.btn-more {
+  background-color: #ff0000;
+  padding: 12px 24px;
+  border-radius: 20px;
+  color: #ffffff;
+  border: 2px solid #990000;
+  cursor: pointer;
+  font-weight: bold;
+}
+.btn-more:hover {
+  background-color: #b30000;
+  transform: scale(1.05);
+}

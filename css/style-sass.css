@@ -1,0 +1,23 @@
+.main-footer .social-networks .social-link {
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+.main-footer {
+  font-family: "Trebuchet MS", sans-serif;
+  background: #222;
+  color: white;
+  padding: 30px;
+  text-align: center;
+}
+.main-footer .social-networks {
+  margin-top: 15px;
+}
+.main-footer .social-networks .social-link {
+  color: #ffcb05;
+  margin: 0 15px;
+  text-decoration: none;
+}
+.main-footer .social-networks .social-link:hover {
+  color: white;
+}
